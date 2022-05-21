@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-05-21T23:02:12.928Z",
+    "end": "2022-05-21T23:02:13.255Z",
+    "duration": 327
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Nuru' to deeply equal [ 'Antonia', 'Nuru' ]",
+        "showDiff": true,
+        "actual": "Nuru",
+        "expected": [
+          "Antonia",
+          "Nuru"
+        ],
+        "stack": "AssertionError: expected 'Nuru' to deeply equal [ 'Antonia', 'Nuru' ]\n    at Context.<anonymous> (test/indexTest.js:10:49)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": []
+}
